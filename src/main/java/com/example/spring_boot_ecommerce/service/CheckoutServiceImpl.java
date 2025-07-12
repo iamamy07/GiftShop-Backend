@@ -10,7 +10,6 @@ import com.example.spring_boot_ecommerce.entity.OrderItem;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
-import com.stripe.model.PaymentMethod;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
